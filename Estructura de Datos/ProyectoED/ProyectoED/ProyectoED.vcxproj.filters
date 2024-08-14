@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\Temas">
+      <UniqueIdentifier>{cb42cf82-c0f2-4ccc-8038-0b098bd430b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Temas">
+      <UniqueIdentifier>{f1ddf655-3531-4ab3-8df6-cd4516a62216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Editoriales">
+      <UniqueIdentifier>{5d6ef4f8-63e0-4061-b7aa-9649a15a8b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Editoriales">
+      <UniqueIdentifier>{eb0774ea-8f34-4f41-b7b0-e3cdc5fc67d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Autores">
+      <UniqueIdentifier>{55d12b80-cbab-4ec7-b4ef-b321bc8768b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Autores">
+      <UniqueIdentifier>{9bcf6e62-da2b-4468-808b-810765030d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Libros">
+      <UniqueIdentifier>{fa59e5e1-c8d9-4e1b-8493-36a08ff4059b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Libros">
+      <UniqueIdentifier>{05300a7c-f207-49d7-afed-a389b7a34c2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProyectoED.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaTemas.cpp">
+      <Filter>Archivos de origen\Temas</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodo.cpp">
+      <Filter>Archivos de origen\Temas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaAutores.cpp">
+      <Filter>Archivos de origen\Autores</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoAutores.cpp">
+      <Filter>Archivos de origen\Autores</Filter>
+    </ClCompile>
+    <ClCompile Include="Libro.cpp">
+      <Filter>Archivos de origen\Libros</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoLibro.cpp">
+      <Filter>Archivos de origen\Libros</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaLibro.cpp">
+      <Filter>Archivos de origen\Libros</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoE.cpp">
+      <Filter>Archivos de origen\Editoriales</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaEditoriales.cpp">
+      <Filter>Archivos de origen\Editoriales</Filter>
+    </ClCompile>
+    <ClCompile Include="SubListaT_L.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoListaT_L.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListaTemas.h">
+      <Filter>Archivos de encabezado\Temas</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
+      <Filter>Archivos de encabezado\Temas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAutores.h">
+      <Filter>Archivos de encabezado\Autores</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoAutores.h">
+      <Filter>Archivos de encabezado\Autores</Filter>
+    </ClInclude>
+    <ClInclude Include="Libro.h">
+      <Filter>Archivos de encabezado\Libros</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaLibro.h">
+      <Filter>Archivos de encabezado\Libros</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoLibro.h">
+      <Filter>Archivos de encabezado\Libros</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaEditoriales.h">
+      <Filter>Archivos de encabezado\Editoriales</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoE.h">
+      <Filter>Archivos de encabezado\Editoriales</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoListaT_L.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SubListaT_L.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
